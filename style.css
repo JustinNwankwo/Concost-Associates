@@ -1,0 +1,65 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 6.25rem;
+  margin-top: 2.375rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  color: #333333;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding-right: 1.875rem;
+}
+
+.last-item {
+  color: #333333;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding-right: 0rem;
+}
+
+.nav-item:hover:not(.nav-active) {
+  color: black;
+}
+
+.nav-active {
+  color: #800000;
+  font-weight: 600;
+}
+
+.logo {
+  font-family: "Josefin Slab";
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #800000;
+}
+
+.primary-cta {
+  background-color: #800000;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.3125rem;
+  padding: 0.625rem 1.25rem;
+  width: 7.5rem;
+  height: 2.5rem;
+}
